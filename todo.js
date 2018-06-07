@@ -1,5 +1,5 @@
-const R = require('ramda')
-
+const {head} = require('ramda')
+// head is function
 const things = ['foo', 8, null, false, 'bar']
 
-console.log(R.head(things))
+console.log(head(things))
